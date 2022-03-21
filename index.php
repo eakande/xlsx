@@ -13,7 +13,7 @@
 </form>
 <?php
 if(isset($_FILES['excel']['name'])){
-	$con=mysqli_connect("localhost","root","Omotayo@75","data_macro");
+	$con=mysqli_connect("remotemysql.com","ULTgk6d0pf","1QwzdlOTOM","ULTgk6d0pf");
 	include "xlsx.php";
 	if($con){
 		$excel=SimpleXLSX::parse($_FILES['excel']['tmp_name']);
