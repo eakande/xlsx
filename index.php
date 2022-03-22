@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dasboard Data</title>
+	<title>Upload Data</title>
 </head>
 <body>
 <form action="#" method="POST" enctype="multipart/form-data">
